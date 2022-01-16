@@ -4,13 +4,41 @@ body {
     color: #204D36
 }
 
+a {
+    text-decoration: none;
+    color: #FFF0D2;
+}
+
+button {
+    background-color: #E7C343;
+    color: #FFF0D2;
+    border: #E7C343;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    border-radius: 15px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #91C681;
+    color: #FFF0D2;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+#main-logo img{
+    height: 118px;
+    width: 800px;
+}
 #top-nav {
-   /* background-color: #204D36; */
+    display: flex;
     overflow: hidden;
+    justify-content: flex-end;
 }
 
 #top-nav a{
-    float: left;
+    flex: 1;
     color: #204D36;
     text-align: center;
     padding: 14px 16px;
@@ -18,7 +46,41 @@ body {
     font-size: 15px;
 }
 
+
 #home-main {
     text-align: center;
     padding: 14px;
 }
+
+.icons {
+    width: 100px;
+    height: 100px;
+}
+
+#lifestyle-main {
+    text-align: center;
+}
+
+.category-icon-container {
+    display: flex;
+    padding-top: 30px;
+}
+
+.icon-diet {
+    flex: 1;
+   
+}
+
+.icon-health {
+    flex: 1;
+    
+}
+
+.icon-exercise {
+    flex: 1;
+}
+
+.icon-meditation {
+    flex: 1;
+}
+
